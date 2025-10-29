@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC2CC7FD2EA2923D002AD334 /* FSCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = EC2CC7FC2EA2923D002AD334 /* FSCalendar */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC2CC7CC2EA11563002AD334 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC2CC7B62EA11561002AD334 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC2CC7BD2EA11561002AD334;
+			remoteInfo = Challenge2Learning;
+		};
+		EC2CC7D62EA11563002AD334 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC2CC7B62EA11561002AD334 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC2CC7BD2EA11561002AD334;
+			remoteInfo = Challenge2Learning;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC2CC7BE2EA11561002AD334 /* Challenge2Learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Challenge2Learning.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC2CC7CB2EA11563002AD334 /* Challenge2LearningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Challenge2LearningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC2CC7D52EA11563002AD334 /* Challenge2LearningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Challenge2LearningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		EC2CC7C02EA11561002AD334 /* Challenge2Learning */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Challenge2Learning;
+			sourceTree = "<group>";
+		};
+		EC2CC7CE2EA11563002AD334 /* Challenge2LearningTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Challenge2LearningTests;
+			sourceTree = "<group>";
+		};
+		EC2CC7D82EA11563002AD334 /* Challenge2LearningUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Challenge2LearningUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC2CC7BB2EA11561002AD334 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2CC7FD2EA2923D002AD334 /* FSCalendar in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2CC7C82EA11563002AD334 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2CC7D22EA11563002AD334 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC2CC7B52EA11561002AD334 = {
+			isa = PBXGroup;
+			children = (
+				EC2CC7C02EA11561002AD334 /* Challenge2Learning */,
+				EC2CC7CE2EA11563002AD334 /* Challenge2LearningTests */,
+				EC2CC7D82EA11563002AD334 /* Challenge2LearningUITests */,
+				EC2CC7BF2EA11561002AD334 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC2CC7BF2EA11561002AD334 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC2CC7BE2EA11561002AD334 /* Challenge2Learning.app */,
+				EC2CC7CB2EA11563002AD334 /* Challenge2LearningTests.xctest */,
+				EC2CC7D52EA11563002AD334 /* Challenge2LearningUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC2CC7BD2EA11561002AD334 /* Challenge2Learning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC2CC7DF2EA11563002AD334 /* Build configuration list for PBXNativeTarget "Challenge2Learning" */;
+			buildPhases = (
+				EC2CC7BA2EA11561002AD334 /* Sources */,
+				EC2CC7BB2EA11561002AD334 /* Frameworks */,
+				EC2CC7BC2EA11561002AD334 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				EC2CC7C02EA11561002AD334 /* Challenge2Learning */,
+			);
+			name = Challenge2Learning;
+			packageProductDependencies = (
+				EC2CC7FC2EA2923D002AD334 /* FSCalendar */,
+			);
+			productName = Challenge2Learning;
+			productReference = EC2CC7BE2EA11561002AD334 /* Challenge2Learning.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC2CC7CA2EA11563002AD334 /* Challenge2LearningTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC2CC7E22EA11563002AD334 /* Build configuration list for PBXNativeTarget "Challenge2LearningTests" */;
+			buildPhases = (
+				EC2CC7C72EA11563002AD334 /* Sources */,
+				EC2CC7C82EA11563002AD334 /* Frameworks */,
+				EC2CC7C92EA11563002AD334 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC2CC7CD2EA11563002AD334 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EC2CC7CE2EA11563002AD334 /* Challenge2LearningTests */,
+			);
+			name = Challenge2LearningTests;
+			packageProductDependencies = (
+			);
+			productName = Challenge2LearningTests;
+			productReference = EC2CC7CB2EA11563002AD334 /* Challenge2LearningTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC2CC7D42EA11563002AD334 /* Challenge2LearningUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC2CC7E52EA11563002AD334 /* Build configuration list for PBXNativeTarget "Challenge2LearningUITests" */;
+			buildPhases = (
+				EC2CC7D12EA11563002AD334 /* Sources */,
+				EC2CC7D22EA11563002AD334 /* Frameworks */,
+				EC2CC7D32EA11563002AD334 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC2CC7D72EA11563002AD334 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EC2CC7D82EA11563002AD334 /* Challenge2LearningUITests */,
+			);
+			name = Challenge2LearningUITests;
+			packageProductDependencies = (
+			);
+			productName = Challenge2LearningUITests;
+			productReference = EC2CC7D52EA11563002AD334 /* Challenge2LearningUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC2CC7B62EA11561002AD334 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					EC2CC7BD2EA11561002AD334 = {
+						CreatedOnToolsVersion = 26.0.1;
+					};
+					EC2CC7CA2EA11563002AD334 = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = EC2CC7BD2EA11561002AD334;
+					};
+					EC2CC7D42EA11563002AD334 = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = EC2CC7BD2EA11561002AD334;
+					};
+				};
+			};
+			buildConfigurationList = EC2CC7B92EA11561002AD334 /* Build configuration list for PBXProject "Challenge2Learning" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC2CC7B52EA11561002AD334;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				EC2CC7ED2EA28FC5002AD334 /* XCRemoteSwiftPackageReference "FSCalendar" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = EC2CC7BF2EA11561002AD334 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC2CC7BD2EA11561002AD334 /* Challenge2Learning */,
+				EC2CC7CA2EA11563002AD334 /* Challenge2LearningTests */,
+				EC2CC7D42EA11563002AD334 /* Challenge2LearningUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC2CC7BC2EA11561002AD334 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2CC7C92EA11563002AD334 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2CC7D32EA11563002AD334 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC2CC7BA2EA11561002AD334 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2CC7C72EA11563002AD334 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2CC7D12EA11563002AD334 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC2CC7CD2EA11563002AD334 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC2CC7BD2EA11561002AD334 /* Challenge2Learning */;
+			targetProxy = EC2CC7CC2EA11563002AD334 /* PBXContainerItemProxy */;
+		};
+		EC2CC7D72EA11563002AD334 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC2CC7BD2EA11561002AD334 /* Challenge2Learning */;
+			targetProxy = EC2CC7D62EA11563002AD334 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EC2CC7DD2EA11563002AD334 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = Q3BRAU32HS;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC2CC7DE2EA11563002AD334 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = Q3BRAU32HS;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC2CC7E02EA11563002AD334 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q3BRAU32HS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Team1.Challenge2Learning;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC2CC7E12EA11563002AD334 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q3BRAU32HS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Team1.Challenge2Learning;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC2CC7E32EA11563002AD334 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q3BRAU32HS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Team1.Challenge2LearningTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Challenge2Learning.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Challenge2Learning";
+			};
+			name = Debug;
+		};
+		EC2CC7E42EA11563002AD334 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q3BRAU32HS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Team1.Challenge2LearningTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Challenge2Learning.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Challenge2Learning";
+			};
+			name = Release;
+		};
+		EC2CC7E62EA11563002AD334 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q3BRAU32HS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Team1.Challenge2LearningUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Challenge2Learning;
+			};
+			name = Debug;
+		};
+		EC2CC7E72EA11563002AD334 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q3BRAU32HS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Team1.Challenge2LearningUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Challenge2Learning;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC2CC7B92EA11561002AD334 /* Build configuration list for PBXProject "Challenge2Learning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC2CC7DD2EA11563002AD334 /* Debug */,
+				EC2CC7DE2EA11563002AD334 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC2CC7DF2EA11563002AD334 /* Build configuration list for PBXNativeTarget "Challenge2Learning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC2CC7E02EA11563002AD334 /* Debug */,
+				EC2CC7E12EA11563002AD334 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC2CC7E22EA11563002AD334 /* Build configuration list for PBXNativeTarget "Challenge2LearningTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC2CC7E32EA11563002AD334 /* Debug */,
+				EC2CC7E42EA11563002AD334 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC2CC7E52EA11563002AD334 /* Build configuration list for PBXNativeTarget "Challenge2LearningUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC2CC7E62EA11563002AD334 /* Debug */,
+				EC2CC7E72EA11563002AD334 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EC2CC7ED2EA28FC5002AD334 /* XCRemoteSwiftPackageReference "FSCalendar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/WenchaoD/FSCalendar";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.8.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EC2CC7FC2EA2923D002AD334 /* FSCalendar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EC2CC7ED2EA28FC5002AD334 /* XCRemoteSwiftPackageReference "FSCalendar" */;
+			productName = FSCalendar;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = EC2CC7B62EA11561002AD334 /* Project object */;
+}
