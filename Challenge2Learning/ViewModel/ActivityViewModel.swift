@@ -88,6 +88,7 @@ final class ActivityViewModel: ObservableObject {
             let hoursPassed = Date().timeIntervalSince(last) / 3600
             if hoursPassed > 32 {
                 store?.logDay = 0
+                store?.freezDay = 0
             }
         }
     }

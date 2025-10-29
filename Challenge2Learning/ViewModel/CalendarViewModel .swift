@@ -69,9 +69,16 @@ struct FSCalendarMarkedView: UIViewRepresentable {
         func calendar(_ calendar: FSCalendar,
                       appearance: FSCalendarAppearance,
                       titleDefaultColorFor date: Date) -> UIColor? {
-            parent.markedDates.contains(dayKey(date))
-            ? UIColor._230
-            : UIColor.white
+            
+            let key = dayKey(date)
+            
+            if parent.markedDates.contains(key) {
+                return UIColor._230
+            } else if parent.freezedDates.contains(key) {
+                return UIColor._2_E_0
+            } else {
+                return UIColor.white
+            }
         }
     }
 }
