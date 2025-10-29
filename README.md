@@ -14,7 +14,7 @@ Learning Tracker is an iOS app that helps users build and maintain consistent le
 - MVVM architecture for structured and maintainable code
 
  # App Overview
-![LearningTracker2025](https://github.com/user-attachments/assets/ae0c7328-cb81-42ee-a94c-47a2fefb29a1)
+![LearningTracker2025](https://github.com/user-attachments/assets/c2fb9225-01cc-4071-a2c6-2be4677caefc)
 
 # Developer
 - Arwa Alkadi
