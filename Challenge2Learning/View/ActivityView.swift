@@ -189,11 +189,11 @@ struct ActivityView: View {
                                                 .font(.system(size: 24, weight: .semibold))
                                                 .foregroundStyle(.white)
                                             if vm.store?.freezDay == 1 {
-                                                Text("Day Learned")
+                                                Text("Frozen Day")
                                                     .font(.system(size: 12, weight: .regular))
                                                     .foregroundStyle(.white)
                                             } else {
-                                                Text("Days Learned")
+                                                Text("Frozen Days")
                                                     .font(.system(size: 12, weight: .regular))
                                                     .foregroundStyle(.white)
                                             }
@@ -306,7 +306,7 @@ struct ActivityView: View {
                             .frame(width: 274, height: 274)
                             .glassEffect(.clear.tint(Color._2_E_0.opacity(0.4)))
                             .overlay(
-                                Text("Day Freezed")
+                                Text("Frozen Day")
                                     .font(.system(size: 40, weight: .bold))
                                     .frame(width: 200, height: 274)
                                     .foregroundStyle(._2_E_0)
@@ -331,7 +331,7 @@ struct ActivityView: View {
                                 )
                             )
                             .overlay(
-                                Text("Log as Freezed")
+                                Text("Log as Frozen")
                                     .font(.system(size: 17, weight: .medium))
                                     .foregroundStyle(.white)
                             )

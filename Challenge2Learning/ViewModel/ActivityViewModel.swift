@@ -125,6 +125,7 @@ final class ActivityViewModel: ObservableObject {
         store.didFreezeToday = true
         store.freezDay += 1
         store.lastFreezeDate = Date()
+        store.lastLogTime = Date()
         try? context?.save()
         
         if totalDays < requiredDays {
