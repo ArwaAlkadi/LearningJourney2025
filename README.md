@@ -1,4 +1,4 @@
-# Learning Tracker App
+# Learning Journey App
 Learning Tracker is an iOS app that helps users build and maintain consistent learning habits by tracking daily progress and streaks.
 
 # Overview
